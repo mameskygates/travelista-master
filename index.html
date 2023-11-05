@@ -1,5 +1,33 @@
 	<!DOCTYPE html>
 	<html lang="zxx" class="no-js">
+		<style>
+			.tooltip {
+			  position: relative;
+			  display: inline-block;
+			  border-bottom: invisible;
+			}
+			
+			.tooltip .tooltiptext {
+			  visibility: hidden;
+			  width: 120px;
+			  background-color: white;
+			  color: black;
+			  text-align: center;
+			  border-radius: 6px;
+			  padding: 5px 0;
+			  
+			  /* Position the tooltip */
+			  position: absolute;
+			  z-index: 1;
+			  top: 100%;
+			  left: 50%;
+			  margin-left: -60px;
+			}
+			
+			.tooltip:hover .tooltiptext {
+			  visibility: visible;
+			}
+			</style>
 	<head>
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -34,6 +62,7 @@
 			<header id="header">
 				<div class="header-top">
 					<div class="container">
+						<div class="h-100 d-inline-block" style="width: 120px; background-color: transparent"></div>
 			  		<div class="row align-items-center">
 			  			<div class="col-lg-6 col-sm-6 col-6 header-top-left">
 			  				<ul>
@@ -47,8 +76,8 @@
 								<a href="#"><i class="fa fa-instagram"></i></a>
 								<a href="https://wa.me/+251944724447"><i class="fa fa-whatsapp"></i></a>
 								<a href="#"><i class="fa fa-envelope-o"></i></a>
-								<a href="tel:+251944724447">ffff<i class="fa fa-phone"></i></a>
-								</div>	
+								<a href="tel:+251944724447"><i class="fa fa-phone"></i></a>
+						</div>	
 							</div>
 			  		</div>			  					
 					</div>
