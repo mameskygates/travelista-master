@@ -2488,7 +2488,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area .overlay-bg {
-  background: rgba(255, 255, 255, 0.999);
+  background: rgba(4, 9, 30, 0.4);
 }
 
 @media (max-width: 767px) {
@@ -3290,7 +3290,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .blog-home-banner .overlay-bg {
-  background: rgba(0, 0, 0, 0.5);
+  background: #AEE8FF;
 }
 
 .blog-page {
